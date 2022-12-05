@@ -1,0 +1,10 @@
+/*CKEDITOR*/
+.ck-editor__editable:not(.ck-editor__nested-editable) {
+    min-height: 250px;
+}
+
+.body_img img{
+    border: 1px solid #cccccc;
+    padding: 5px;
+    margin: 0px 15px 0px 0px;
+}

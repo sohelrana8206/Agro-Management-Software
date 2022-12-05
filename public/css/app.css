@@ -1,0 +1,58 @@
+thead, tbody, tfoot
+{
+    font-size: 12px;
+}
+
+tbody
+{
+    font-size: 12px;
+}
+
+.btn-add{
+    margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-remove{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.modal-header{
+    display: table;
+}
+
+.modal-header #closeHeader{
+    color: red;
+    font-weight: bolder;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.dashboard-totalApplicants a{
+    color: red !important;
+    cursor: pointer;
+}
+
+.dashboard-totalApplicants a:hover{
+    font-weight: bolder;
+}
+
+ul > li.custom-dropdown > a{
+    color: #4c1c1c;
+    padding: 5px 25px !important;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ccc;
+    transition-duration: 0.5s;
+}
+
+ul > li.custom-dropdown > a:active{
+    text-decoration: none;
+}
+
+ul > li.custom-dropdown > a:hover{
+    color: #c10101;
+    box-shadow: 0 0 7px 2px #ccc;
+    transition-duration: 0.5s;
+}
